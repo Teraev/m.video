@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  
+    
+}
+
+.small {
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: rgba(0, 0, 0, 0.822);
+    justify-content: space-between;
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-weight: 600;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 30px;
+        object-fit: contain;
+
+    }
+}
+
+
+.big {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+
+
+
+    a {
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .mvideo {
+        width: 85px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    button {
+        width: 120px;
+        height: 50px;
+        background-color: rgba(255, 0, 0, 0.644);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 600px;
+        height: 45px;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        text-align: end;
+        gap: 20px;
+
+
+    }
+}
+
+
+h4 {
+    color: grey;
+    padding: 20px ;
+    margin: 10px 220px;
+    font-weight: 600;
+
+}
+
+.sams {
+    background-color: rgba(12, 12, 12, 0.808);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    .samsung {
+        padding: 5px;
+        color: white;
+        font-weight: 700;
+        
+
+    }
+}
+.container {
+    position: relative;
+}
+
+
+.products {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-auto-rows: 180px;
+    gap: 20px;
+    margin: 270px 20px;
+}
+
+
+
+#phone {
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    text-align: center;
+   
+    tele{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+#pad {
+   
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 3;
+    grid-row: 1 / 2;
+    text-align: center;
+
+    .plans{
+        width: 200px;
+        height: 150px;
+    }
+
+  
+}
+
+#tv {
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 4;
+    grid-row: 1 / 2;
+text-align: center;
+    .tele {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+#pods {
+    background: rgba(203, 188, 188, 0.219);
+  
+    grid-column: 3;
+    grid-row: 2 / 3;
+    text-align: center;
+    .air {
+        width: 150px;
+        height: 150px;
+    }
+
+  
+}
+
+#audio {
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 4;
+    grid-row: 2 / 3;
+    text-align: center; 
+
+    .sing {
+        padding-top: 40px;
+        width: 200px;
+        height: 150px;
+    }
+}
+#fridge {
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 5;
+    grid-row: 1 / 2;
+    text-align: center; 
+
+    .frig{
+        width: 150px;
+        height: 150px;
+    }
+}
+#washing{
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 5;
+    grid-row: 2 / 3;
+    text-align: center; 
+    .wash {
+        width: 150px;
+        height: 150px;
+    }
+}
+#kitchen {
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 6;
+    grid-row: 1 / 2;
+    text-align: center;
+
+    .kitch {
+        width: 150px;
+        height: 150px;
+    }
+}
+#vacuum {
+    background: rgba(203, 188, 188, 0.219);
+    grid-column: 6;
+    grid-row: 2 / 3;
+    text-align: center;
+
+    .vac{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.names {
+    color: rgb(5, 4, 4);
+}
